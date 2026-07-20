@@ -1,100 +1,195 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6EE7F7,50:3B82F6,100:8B5CF6&height=200&section=header&text=Risikesh%20Somnath%20T&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20AI%20Enthusiast&descAlignY=58&descSize=20&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6EE7F7,50:3B82F6,100:8B5CF6&height=220&section=header&text=Risikesh%20Somnath%20T&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineer%20%7C%20AI%2FML%20%7C%20Full%20Stack&descAlignY=55&descSize=18&animation=fadeIn" />
 
-<!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=6EE7F7&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%F0%9F%9A%80;AI+%26+Cloud+Enthusiast+%E2%98%81%EF%B8%8F;Building+Scalable+Real-World+Apps+%F0%9F%94%A5;Next.js+%7C+TypeScript+%7C+PostgreSQL+%F0%9F%A7%A0;Turning+Ideas+into+Impact+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=1000&color=6EE7F7&center=true&vCenter=true&width=650&lines=Software+Engineer+%F0%9F%92%BB;AI+%2F+ML+Practitioner+%F0%9F%A4%96;Full+Stack+%26+Cloud+Native+Systems+%E2%98%81%EF%B8%8F;Next.js+%7C+TypeScript+%7C+PostgreSQL+%F0%9F%A7%A0;Engineering+Products+That+Scale+%E2%9C%A8" alt="Typing SVG" />
 </a>
+
+<br/><br/>
+
+![Academic](https://img.shields.io/badge/B.E._Computer_Science-2026-6366f1?style=for-the-badge&logo=googlescholar&logoColor=white)
+![Location](https://img.shields.io/badge/Based_in-Chennai%2C_India-3b82f6?style=for-the-badge&logo=googlemaps&logoColor=white)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-url.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/risikesh-somnath-t-7b5222376)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Risikesh2006)
 
 <br/>
 
-<!-- Profile Views & Followers -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=Risikesh2006&label=Profile+Views&color=6366f1&style=for-the-badge" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/Risikesh2006?label=Followers&style=for-the-badge&color=3b82f6" alt="Followers" />
-</p>
+<img src="https://komarev.com/ghpvc/?username=Risikesh2006&label=Profile+Views&color=6366f1&style=for-the-badge" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/Risikesh2006?label=Followers&style=for-the-badge&color=3b82f6" alt="Followers" />
+<img src="https://img.shields.io/github/stars/Risikesh2006?label=Stars&style=for-the-badge&color=8B5CF6" alt="Stars" />
 
 </div>
 
+<br/>
+
+## 🧭 About Me
+
+> *Software engineer focused on designing and shipping scalable, production-grade systems. I work across the stack — from interface to infrastructure — with a strong emphasis on clean architecture, performance, and reliability. Actively building AI-powered products and deepening my expertise in distributed systems and cloud-native engineering.*
+
+- 🧠 **Software Engineering** — clean architecture, API design, testable systems
+- 🤖 **AI / ML** — applied ML integration, LLM-powered features, intelligent automation
+- 🌐 **Full Stack Development** — Next.js, TypeScript, Node.js, PostgreSQL
+- 🎯 **Product Engineering Mindset** — building for real users, not just demos
+- ☁️ **Currently deepening** — System Design, Cloud Computing, Distributed Systems
+
+**🔭 Open To:** Software Engineering roles · AI/ML Engineering roles · Full-Stack opportunities · Open-source collaboration · Internships
+
 ---
 
-## 🚀 About Me
-
-> *"I'm a passionate Full-Stack Developer and AI enthusiast focused on building real-world, scalable applications. I enjoy turning complex ideas into practical solutions using modern technologies. Currently working on AI-powered platforms and continuously improving my skills in system design and cloud computing."*
-
-- 🌱 Currently diving deep into **System Design & Cloud Computing**
-- 🤖 Passionate about **AI-powered applications** and intelligent systems
-- 🛠️ Building **scalable, production-grade** full-stack platforms
-- 🎯 Goal: Ship impactful software that solves real-world problems
-- ⚡ Fun fact: I believe the best code is the code that empowers people
-
----
-
-## 🏆 Featured Project
+## 🛠️ Tech Stack
 
 <div align="center">
 
-### 🎓 CampusConnect — Smart Campus Collaboration Platform
+**Languages**
+<br/>
+<img src="https://skillicons.dev/icons?i=ts,js,py,java,cpp,c" />
+
+**Frontend**
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,redux" />
+
+**Backend & Databases**
+<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,prisma,graphql" />
+
+**Cloud, DevOps & Tooling**
+<br/>
+<img src="https://skillicons.dev/icons?i=aws,docker,git,github,postman,figma,vscode,linux" />
 
 </div>
 
-> A unified smart campus ecosystem built to empower students to **connect**, **collaborate**, and **create**.
+---
 
-| Feature | Description |
+## 🤖 AI / ML Expertise
+
+<div align="center">
+
+| Domain | Proficiency | Details |
+|---|:---:|---|
+| LLM Integration | ⭐⭐⭐⭐ | Building AI-powered features (resume/idea generation) using LLM APIs |
+| Applied Machine Learning | ⭐⭐⭐ | Model integration into production full-stack apps |
+| Prompt Engineering | ⭐⭐⭐⭐ | Structured prompting for reliable, structured AI outputs |
+| Data Pipelines | ⭐⭐⭐ | Processing & structuring data for AI-driven features |
+| AI Product Design | ⭐⭐⭐⭐ | Designing AI-first user experiences end-to-end |
+
+</div>
+
+---
+
+## 🚀 Featured Projects
+
+<details open>
+<summary><b>🎓 CampusConnect — Smart Campus Collaboration Platform</b></summary>
+<br/>
+
+A unified smart campus ecosystem enabling students to connect, collaborate, and create — combining social features, AI tooling, and opportunity discovery in one platform.
+
+| Aspect | Detail |
 |---|---|
-| 🔗 **Developer Feed** | Share ideas, posts, and updates with your campus community |
-| 💬 **Messaging System** | Real-time collaboration between students and teams |
-| 🤖 **AI-Powered Tools** | Resume generator & project idea generator using AI |
-| 🏆 **Opportunities Hub** | Discover hackathons, internships & campus events |
-| 🛡️ **Admin Dashboard** | User management, content moderation & system monitoring |
-| 📁 **Project Showcase** | Students can publish and discover impactful campus projects |
+| **Stack** | Next.js · TypeScript · PostgreSQL · Prisma · AI Integration |
+| **Scale** | Multi-module platform: feed, messaging, admin, showcase |
+| **Performance** | Server-side rendering, optimized query layer via Prisma |
+| **Security** | Role-based access control, admin moderation layer |
+| **Impact** | Centralizes campus collaboration, AI tools & opportunity discovery |
+| **Repository** | [Smart_Campus](https://github.com/Risikesh2006/Smart_Campus) |
 
-```
-Tech Stack: Next.js · TypeScript · PostgreSQL · AI Integration
-```
+**Key Modules:**
+- 🔗 Developer Feed — share ideas, posts, and updates with the campus community
+- 💬 Real-time messaging between students and teams
+- 🤖 AI-powered resume generator & project idea generator
+- 🏆 Opportunities hub for hackathons, internships & events
+- 🛡️ Admin dashboard for user management & content moderation
+- 📁 Project showcase for publishing student work
 
 [![View Project](https://img.shields.io/badge/View%20Project-Smart__Campus__Collaboration__Platform-6366f1?style=for-the-badge&logo=github)](https://github.com/Risikesh2006/Smart_Campus)
 
+</details>
+
+<details>
+<summary><b>📦 [Project Name]</b></summary>
+<br/>
+
+_Add a short description of the project here._
+
+| Aspect | Detail |
+|---|---|
+| **Stack** | [e.g. React · Node.js · MongoDB] |
+| **Scale** | [e.g. users / requests / data volume] |
+| **Performance** | [e.g. load time, throughput] |
+| **Security** | [e.g. auth method, encryption] |
+| **Impact** | [e.g. problem solved / outcome] |
+| **Repository** | [Link](#) |
+
+</details>
+
 ---
 
-## 🛠️ Tech Stack & Tools
+## 💼 Experience
+
+**[Job Title] · [Company Name]**
+`[Month Year] – [Month Year]`
+
+[Add a short professional description of your role and responsibilities.]
+
+- [Scope of work bullet point]
+- [Scope of work bullet point]
+- [Scope of work bullet point]
+
+`Tags:` ![Skill](https://img.shields.io/badge/-Skill-6366f1?style=flat-square) ![Skill](https://img.shields.io/badge/-Skill-3b82f6?style=flat-square)
+
+---
+
+## 🏆 Achievements
 
 <div align="center">
 
-### 🌐 Frontend
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### ⚙️ Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### 🗄️ Database & Cloud
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-### 🔧 Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+| Recognition | Details |
+|---|---|
+| [Achievement Title] | [Short description, date, organization] |
+| [Achievement Title] | [Short description, date, organization] |
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📜 Certifications
+
+**AWS**
+<br/>
+![AWS Cert](https://img.shields.io/badge/AWS-Certification_Name-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+**Oracle**
+<br/>
+![Oracle Cert](https://img.shields.io/badge/Oracle-Certification_Name-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+**NPTEL**
+<br/>
+![NPTEL Cert](https://img.shields.io/badge/NPTEL-Course_Name-1F4E79?style=for-the-badge&logo=googlescholar&logoColor=white)
+
+**Cisco**
+<br/>
+![Cisco Cert](https://img.shields.io/badge/Cisco-Certification_Name-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+
+---
+
+## 💻 Coding Profiles
+
+<div align="center">
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-your__handle-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-your__handle-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](#)
+[![HackerRank](https://img.shields.io/badge/HackerRank-your__handle-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](#)
+[![CodeChef](https://img.shields.io/badge/CodeChef-your__handle-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](#)
+
+</div>
+
+---
+
+## 📊 GitHub Analytics
 
 <div align="center">
 
@@ -117,7 +212,7 @@ Tech Stack: Next.js · TypeScript · PostgreSQL · AI Integration
 
 ---
 
-## 📈 Contribution Graph
+## 📈 Contribution Activity
 
 <div align="center">
 
@@ -127,12 +222,50 @@ Tech Stack: Next.js · TypeScript · PostgreSQL · AI Integration
 
 ---
 
-## 🤝 Connect With Me
+## 🐍 Contribution Snake
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/Risikesh2006/Risikesh2006/output/github-contribution-grid-snake-dark.svg" />
+
+</div>
+
+> To enable this, add the [snake generator GitHub Action](https://github.com/Platane/snk) to this repo's workflows.
+
+---
+
+## 🎯 Current Focus
+
+```yaml
+Learning:
+  - System Design & Distributed Architecture
+  - Cloud-Native Engineering (AWS)
+  - Advanced AI/LLM Integration Patterns
+
+Building:
+  - CampusConnect (Smart Campus Collaboration Platform)
+  - AI-powered developer tools
+
+Exploring:
+  - Kubernetes & Container Orchestration
+  - Retrieval-Augmented Generation (RAG) systems
+
+Open_To:
+  - Software Engineering Roles
+  - AI/ML Engineering Roles
+  - Open Source Collaboration
+```
+
+---
+
+## 🤝 Connect
+
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/Gmail-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Risikesh%20Somnath%20T-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/risikesh-somnath-t-7b5222376)
 [![GitHub](https://img.shields.io/badge/GitHub-Risikesh2006-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Risikesh2006)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-url.com)
 
 </div>
 
@@ -140,9 +273,8 @@ Tech Stack: Next.js · TypeScript · PostgreSQL · AI Integration
 
 <div align="center">
 
-<!-- Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:3B82F6,100:6EE7F7&height=120&section=footer" />
+*"Good code is written for the next engineer who reads it — including future me."*
 
-<i>⭐ If you like my work, consider giving my repos a star! It means a lot 🚀</i>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:3B82F6,100:6EE7F7&height=120&section=footer" />
 
 </div>
