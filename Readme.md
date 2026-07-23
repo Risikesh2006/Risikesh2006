@@ -11,7 +11,7 @@
 ![Academic](https://img.shields.io/badge/B.E._Computer_Science-2026-6366f1?style=for-the-badge&logo=googlescholar&logoColor=white)
 ![Location](https://img.shields.io/badge/Based_in-Chennai%2C_India-3b82f6?style=for-the-badge&logo=googlemaps&logoColor=white)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-url.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://risikesh-portfolio.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/risikesh-somnath-t-7b5222376)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Risikesh2006)
@@ -180,9 +180,9 @@ _Add a short description of the project here._
 
 <div align="center">
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-your__handle-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-your__handle-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](#)
-[![HackerRank](https://img.shields.io/badge/HackerRank-your__handle-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](#)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://risikesh-portfolio.vercel.app/)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-risisonh77d-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/risisonh77d?tab=overview)
+[![HackerRank](https://img.shields.io/badge/HackerRank-risisonu2006-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/risisonu2006)
 [![CodeChef](https://img.shields.io/badge/CodeChef-your__handle-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](#)
 
 </div>
@@ -265,7 +265,7 @@ Open_To:
 [![Gmail](https://img.shields.io/badge/Gmail-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Risikesh%20Somnath%20T-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/risikesh-somnath-t-7b5222376)
 [![GitHub](https://img.shields.io/badge/GitHub-Risikesh2006-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Risikesh2006)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-url.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://risikesh-portfolio.vercel.app/)
 
 </div>
 
