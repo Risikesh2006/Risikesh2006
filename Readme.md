@@ -180,10 +180,9 @@ _Add a short description of the project here._
 
 <div align="center">
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://risikesh-portfolio.vercel.app/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-RisikeshSomnathT-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/RisikeshSomnathT/)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-risisonh77d-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/risisonh77d?tab=overview)
 [![HackerRank](https://img.shields.io/badge/HackerRank-risisonu2006-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/risisonu2006)
-[![CodeChef](https://img.shields.io/badge/CodeChef-your__handle-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](#)
 
 </div>
 
