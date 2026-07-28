@@ -1,5 +1,5 @@
 <div align="center">
-
+  
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6EE7F7,50:3B82F6,100:8B5CF6&height=220&section=header&text=Risikesh%20Somnath%20T&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineer%20%7C%20AI%2FML%20%7C%20Full%20Stack&descAlignY=55&descSize=18&animation=fadeIn" />
 
 <a href="https://git.io/typing-svg">
