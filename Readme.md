@@ -205,7 +205,10 @@ _Add a short description of the project here._
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Risikesh2006&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />
+  <img
+    src="https://github-profile-trophy.vercel.app/?username=Risikesh2006&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1"
+    alt="Risikesh2006 GitHub Trophies"
+  />
 
 </div>
 
