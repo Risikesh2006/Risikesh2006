@@ -1,7 +1,7 @@
 <div align="center">
   
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6EE7F7,50:3B82F6,100:8B5CF6&height=220&section=header&text=Risikesh%20Somnath%20T&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineer%20%7C%20AI%2FML%20%7C%20Full%20Stack&descAlignY=55&descSize=18&animation=fadeIn" />
- \
+
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=1000&color=6EE7F7&center=true&vCenter=true&width=650&lines=Software+Engineer+%F0%9F%92%BB;AI+%2F+ML+Practitioner+%F0%9F%A4%96;Full+Stack+%26+Cloud+Native+Systems+%E2%98%81%EF%B8%8F;Next.js+%7C+TypeScript+%7C+PostgreSQL+%F0%9F%A7%A0;Engineering+Products+That+Scale+%E2%9C%A8" alt="Typing SVG" />
 </a>
@@ -193,7 +193,7 @@ _Add a short description of the project here._
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Risikesh2006&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&icon_color=8B5CF6&text_color=ffffff&count_private=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Risikesh2006&theme=tokyonight&hide_border=true&background=0D1117&ring=6EE7F7&fire=8B5CF6&currStreakLabel=ffffff" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=Risikesh2006&theme=tokyonight&hide_border=true&background=0D1117&ring=6EE7F7&fire=8B5CF6&currStreakLabel=ffffff" />
 
 <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Risikesh2006&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7F7&text_color=ffffff&langs_count=8" />
 
