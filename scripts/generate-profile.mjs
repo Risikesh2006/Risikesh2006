@@ -66,25 +66,43 @@ top.forEach(([name, count], i) => {
   langs += `<rect x="${x}" y="${y + 12}" width="425" height="7" rx="3" fill="#1e293b"/><rect x="${x}" y="${y + 12}" width="${425 * count / Math.max(...top.map(t => t[1]))}" height="7" rx="3" fill="${colors[i]}"/>`;
 });
 langs += text(30, 281, 'Primary language by number of owned, non-fork public repositories; not code percentage.', 12, '#94a3b8');
-const milestones = [['Builder', user.public_repos, 'public repositories'], ['Star collector', stars, 'stars earned'], ['Community', user.followers, 'followers'], ['Consistency', activeDays, 'active days this year']];
+const milestones = [['Builder', user.public_repos, 'public repositories'], ['Contribution streak', current, 'consecutive days'], ['Community', user.followers, 'followers'], ['Consistency', activeDays, 'active days this year']];
 const trophies = milestones.map(([label, count, unit], i) => {
   const x = 30 + i * 232;
   return `<rect x="${x}" y="64" width="210" height="174" rx="14" fill="#151e2d" stroke="#2c3b52"/><g transform="translate(${x + 88},80)" fill="none" stroke="${colors[i]}" stroke-width="2.5"><path d="M4 0h26v12c0 17-26 17-26 0zM4 5H-3v7c0 8 9 8 9 8M30 5h7v7c0 8-9 8-9 8M17 25v10M6 37h22"/></g>${text(x + 105, 144, label, 16, '#e2e8f0', 'text-anchor="middle"')}${text(x + 105, 185, count, 30, colors[i], 'text-anchor="middle" font-weight="700"')}${text(x + 105, 214, unit, 12, '#94a3b8', 'text-anchor="middle"')}`;
 }).join('') + text(30, 266, 'Custom milestone trophies based on real public metrics — not official GitHub awards.', 12, '#94a3b8');
-const shades = ['#182334', '#164e63', '#0e7490', '#22b8cf', '#67e8f9'];
-const levels = ['NONE', 'FIRST_QUARTILE', 'SECOND_QUARTILE', 'THIRD_QUARTILE', 'FOURTH_QUARTILE'];
-let heatmap = text(30, 77, `${calendar.totalContributions.toLocaleString('en-US')} contributions in the past year`, 17, '#67e8f9');
-calendar.weeks.forEach((week, x) => week.contributionDays.forEach(d => {
-  heatmap += `<rect x="${32 + x * 17}" y="${100 + d.weekday * 18}" width="13" height="14" rx="3" fill="${shades[Math.max(0, levels.indexOf(d.contributionLevel))]}"><title>${d.date}: ${d.contributionCount} contributions</title></rect>`;
-}));
-heatmap += text(30, 251, `${days[0].date} — ${days.at(-1).date} · ${activeDays} active days`, 12, '#94a3b8');
-heatmap += text(756, 251, 'Less', 11, '#94a3b8') + shades.map((c, i) => `<rect x="${790 + 18 * i}" y="240" width="13" height="13" rx="3" fill="${c}"/>`).join('') + text(887, 251, 'More', 11, '#94a3b8');
+
+// Weekly totals keep the entire calendar legible without changing the data.
+const weeks = calendar.weeks.map(w => ({ date: w.contributionDays[0].date, count: w.contributionDays.reduce((s, d) => s + d.contributionCount, 0) }));
+const ceiling = Math.max(4, Math.ceil(Math.max(...weeks.map(w => w.count)) / 4) * 4);
+const left = 64, right = 920, baseline = 298, plotHeight = 172;
+const points = weeks.map((w, i) => [left + i * (right - left) / Math.max(1, weeks.length - 1), baseline - w.count / ceiling * plotHeight]);
+const line = points.map(([x, y], i) => (i ? 'L' : 'M') + x.toFixed(2) + ',' + y.toFixed(2)).join(' ');
+let graph = '<defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#38bdf8" stop-opacity=".22"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient></defs><style>.trend{stroke-dasharray:1;stroke-dashoffset:0;animation:draw 2.4s cubic-bezier(.22,1,.36,1) both}@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}@media(prefers-reduced-motion:reduce){.trend{animation:none}}</style>';
+graph += text(30, 77, calendar.totalContributions.toLocaleString('en-US') + ' contributions in the past year', 17, '#67e8f9');
+graph += text(920, 77, current + ' day contribution streak', 14, '#a78bfa', 'text-anchor="end"');
+graph += text(64, 108, 'CONTRIBUTIONS / WEEK', 10, '#94a3b8', 'letter-spacing="1.5"');
+for (let i = 0; i <= 4; i++) {
+  const y = baseline - i * plotHeight / 4;
+  graph += '<path d="M' + left + ' ' + y + 'H' + right + '" stroke="#263449" stroke-dasharray="3 6"/>' + text(49, y + 4, ceiling * i / 4, 11, '#94a3b8', 'text-anchor="end"');
+}
+graph += '<path d="' + line + ' L' + right + ',' + baseline + ' L' + left + ',' + baseline + ' Z" fill="url(#area)"/><path class="trend" pathLength="1" d="' + line + '" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>';
+points.forEach(([x, y], i) => {
+  graph += '<circle cx="' + x + '" cy="' + y + '" r="2.5" fill="#0d1117" stroke="#67e8f9" stroke-width="1.3"><title>Week of ' + weeks[i].date + ': ' + weeks[i].count + ' contributions</title></circle>';
+});
+for (let i = 0; i < 7; i++) {
+  const index = Math.round(i * (weeks.length - 1) / 6);
+  const label = new Date(weeks[index].date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', year: '2-digit', timeZone: 'UTC' });
+  graph += text(points[index][0], 321, label, 11, '#94a3b8', 'text-anchor="' + (i === 0 ? 'start' : i === 6 ? 'end' : 'middle') + '"');
+}
+graph += text(30, 361, days[0].date + ' — ' + days.at(-1).date + ' · ' + activeDays + ' active days', 12, '#94a3b8');
+graph += text(920, 361, 'Weekly totals · first / last week may be partial', 11, '#94a3b8', 'text-anchor="end"');
 // Fetch and render everything before replacing any last-known-good assets.
 await mkdir('assets', { recursive: true });
 await Promise.all([
   ['github-stats.svg', svg('GitHub / by the numbers', 330, stats)],
   ['languages.svg', svg('Languages / repository mix', 305, langs)],
   ['trophies.svg', svg('Milestones / built over time', 290, trophies)],
-  ['contributions.svg', svg('Contribution activity / one year of building', 278, heatmap)],
+  ['contributions.svg', svg('Contribution activity / one year of building', 386, graph)],
 ].map(([name, contents]) => writeFile(`assets/${name}`, contents)));
 console.log(`Generated 4 profile assets from ${repos.length} public repositories and ${days.length} calendar days.`);

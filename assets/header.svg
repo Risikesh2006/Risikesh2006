@@ -1,37 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Risikesh Somnath T — Software Engineer</title>
-  <desc id="desc">Software engineering, AI and ML, full stack. Building thoughtful products from interface to infrastructure.</desc>
-  <defs>
-    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#111d35"/></linearGradient>
-    <linearGradient id="line"><stop stop-color="#67e8f9"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8ba7cc" stroke-opacity=".07"/></pattern>
-  </defs>
-  <style>
-    .orbit { transform-origin: 1010px 160px; animation: orbit 28s linear infinite; }
-    .pulse { animation: pulse 4s ease-in-out infinite; }
-    .cursor { animation: blink 1.4s steps(2,end) infinite; }
-    .flow { stroke-dasharray: 180 1100; animation: flow 10s linear infinite; }
-    @keyframes orbit { to { transform: rotate(360deg); } }
-    @keyframes pulse { 50% { opacity: .4; } }
-    @keyframes blink { 50% { opacity: 0; } }
-    @keyframes flow { to { stroke-dashoffset: -1280; } }
-    @media (prefers-reduced-motion: reduce) { .orbit,.pulse,.cursor,.flow { animation: none; } }
-  </style>
-  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
-  <g fill="none" stroke="url(#line)">
-    <circle cx="1010" cy="160" r="103" opacity=".22"/>
-    <circle cx="1010" cy="160" r="77" opacity=".16"/>
-    <g class="orbit"><ellipse cx="1010" cy="160" rx="124" ry="44" transform="rotate(-35 1010 160)" opacity=".55"/><circle cx="1112" cy="101" r="6" fill="#67e8f9"/></g>
-    <path class="flow" d="M0 318H1200" stroke-width="3"/>
-  </g>
-  <g font-family="Segoe UI,Arial,sans-serif">
-    <circle class="pulse" cx="61" cy="66" r="5" fill="#67e8f9"/>
-    <text x="78" y="71" fill="#67e8f9" font-size="13" letter-spacing="3">BUILD · LEARN · ITERATE</text>
-    <text x="54" y="148" fill="#f1f5f9" font-size="53" font-weight="750">Risikesh Somnath T</text>
-    <text x="57" y="192" fill="#cbd5e1" font-size="22">Software Engineer · AI / ML · Full Stack</text>
-    <text x="57" y="245" fill="#94a3b8" font-size="17">From interface to infrastructure. Built with purpose.</text>
-    <text x="964" y="177" fill="#67e8f9" font-family="monospace" font-size="40">&lt;/&gt;</text>
-    <path class="cursor" d="M57 273h10" stroke="#a78bfa" stroke-width="3"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Risikesh Somnath T — Software Engineer</title>
+<desc id="desc">Software engineering, AI and ML, full stack. Building thoughtful products from interface to infrastructure.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#101b2d"/></linearGradient>
+<linearGradient id="fade"><stop stop-color="#67e8f9" stop-opacity="0"/><stop offset=".5" stop-color="#67e8f9" stop-opacity=".5"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+<clipPath id="bounds"><rect x="1" y="1" width="1198" height="358" rx="20"/></clipPath>
+</defs>
+<style>
+.intro{animation:enter 1.4s cubic-bezier(.22,1,.36,1) both}
+.editor{animation:enter 1.8s cubic-bezier(.22,1,.36,1) both}
+.wave-a{animation:drift 12s ease-in-out infinite}
+.wave-b{animation:drift 16s ease-in-out -6s infinite reverse}
+.caret{animation:caret 2.4s ease-in-out infinite}
+.code-a{animation:code 10s ease-in-out infinite;transform-origin:886px 132px}
+.code-b{animation:code 10s ease-in-out -3s infinite;transform-origin:914px 162px}
+.code-c{animation:code 10s ease-in-out -6s infinite;transform-origin:914px 192px}
+@keyframes enter{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+@keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(14px)}}
+@keyframes caret{0%,35%,100%{opacity:1}55%,80%{opacity:.15}}
+@keyframes code{0%,20%,80%,100%{transform:scaleX(1);opacity:.8}45%,55%{transform:scaleX(.72);opacity:.5}}
+@media(prefers-reduced-motion:reduce){.intro,.editor,.wave-a,.wave-b,.caret,.code-a,.code-b,.code-c{animation:none}}
+</style>
+<rect x="1" y="1" width="1198" height="358" rx="20" fill="url(#bg)" stroke="#263449"/>
+<g clip-path="url(#bounds)" fill="none">
+<path class="wave-a" d="M-80 318C180 230 330 392 600 310S960 228 1280 296" stroke="url(#fade)" stroke-width="1.5"/>
+<path class="wave-b" d="M-80 333C180 260 400 382 690 321S1000 266 1280 314" stroke="url(#fade)" opacity=".45"/>
+</g>
+<g class="intro" font-family="Segoe UI,Arial,sans-serif">
+<rect x="54" y="53" width="3" height="17" rx="1.5" fill="#67e8f9"/>
+<text x="70" y="66" fill="#94a3b8" font-size="12" letter-spacing="2.8">BUILD · LEARN · ITERATE</text>
+<text x="52" y="145" fill="#f1f5f9" font-size="51" font-weight="700" letter-spacing="-1.4">Risikesh Somnath T</text>
+<text x="55" y="192" fill="#cbd5e1" font-size="22">Software Engineer · AI / ML · Full Stack</text>
+<text x="55" y="245" fill="#94a3b8" font-size="17">From interface to infrastructure. Built with purpose.</text>
+</g>
+<g class="editor">
+<rect x="838" y="63" width="302" height="205" rx="12" fill="#0d141f" stroke="#2b384b"/>
+<path d="M838 99H1140" stroke="#263449"/>
+<g fill="#475569"><circle cx="858" cy="81" r="3"/><circle cx="871" cy="81" r="3"/><circle cx="884" cy="81" r="3"/></g>
+<path d="M867 129l-7 7 7 7M1098 218l7 7-7 7" fill="none" stroke="#67e8f9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g stroke-width="6" stroke-linecap="round">
+<path class="code-a" d="M886 136h100" stroke="#a78bfa"/>
+<path class="code-b" d="M914 166h147" stroke="#67e8f9"/>
+<path class="code-c" d="M914 196h106" stroke="#60a5fa"/>
+<path d="M886 226h65" stroke="#475569"/>
+</g>
+<path class="caret" d="M963 218v16" stroke="#67e8f9" stroke-width="2"/>
+</g>
 </svg>
