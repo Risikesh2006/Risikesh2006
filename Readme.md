@@ -148,7 +148,7 @@ A unified smart campus ecosystem enabling students to connect, collaborate, and 
 <div align="center">
 
 <a href="https://github.com/Risikesh2006?tab=overview">
-  <img width="100%" src="assets/contributions.svg" alt="My contribution calendar over the past year" />
+  <img width="100%" src="assets/contribution-activity-green.svg" alt="My green GitHub contribution line graph over the past year" />
 </a>
 
 </div>
@@ -162,9 +162,9 @@ A unified smart campus ecosystem enabling students to connect, collaborate, and 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Risikesh2006/Risikesh2006/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Risikesh2006/Risikesh2006/output/github-contribution-grid-snake-dark.svg?palette=green-v2" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Risikesh2006/Risikesh2006/output/github-contribution-grid-snake.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/Risikesh2006/Risikesh2006/output/github-contribution-grid-snake-dark.svg" alt="Animated snake weaving through my GitHub contributions" />
+  <img width="100%" src="https://raw.githubusercontent.com/Risikesh2006/Risikesh2006/output/github-contribution-grid-snake-dark.svg?palette=green-v2" alt="Animated snake weaving through my GitHub contributions" />
 </picture>
 
 </div>

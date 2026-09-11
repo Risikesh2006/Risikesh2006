@@ -103,6 +103,6 @@ await Promise.all([
   ['github-stats.svg', svg('GitHub / by the numbers', 330, stats)],
   ['languages.svg', svg('Languages / repository mix', 305, langs)],
   ['trophies.svg', svg('Milestones / built over time', 290, trophies)],
-  ['contributions.svg', svg('Contribution activity / one year of building', 386, graph)],
+  ['contribution-activity-green.svg', svg('Contribution activity / one year of building', 386, graph).replaceAll('#38bdf8', '#39d353').replaceAll('#67e8f9', '#39d353').replaceAll('#a78bfa', '#26a641')],
 ].map(([name, contents]) => writeFile(`assets/${name}`, contents)));
 console.log(`Generated 4 profile assets from ${repos.length} public repositories and ${days.length} calendar days.`);
