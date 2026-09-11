@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Risikesh Somnath T — Software Engineer</title>
+  <desc id="desc">Software engineering, AI and ML, full stack. Building thoughtful products from interface to infrastructure.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#111d35"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#67e8f9"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8ba7cc" stroke-opacity=".07"/></pattern>
+  </defs>
+  <style>
+    .orbit { transform-origin: 1010px 160px; animation: orbit 28s linear infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    .cursor { animation: blink 1.4s steps(2,end) infinite; }
+    .flow { stroke-dasharray: 180 1100; animation: flow 10s linear infinite; }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes pulse { 50% { opacity: .4; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes flow { to { stroke-dashoffset: -1280; } }
+    @media (prefers-reduced-motion: reduce) { .orbit,.pulse,.cursor,.flow { animation: none; } }
+  </style>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <g fill="none" stroke="url(#line)">
+    <circle cx="1010" cy="160" r="103" opacity=".22"/>
+    <circle cx="1010" cy="160" r="77" opacity=".16"/>
+    <g class="orbit"><ellipse cx="1010" cy="160" rx="124" ry="44" transform="rotate(-35 1010 160)" opacity=".55"/><circle cx="1112" cy="101" r="6" fill="#67e8f9"/></g>
+    <path class="flow" d="M0 318H1200" stroke-width="3"/>
+  </g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <circle class="pulse" cx="61" cy="66" r="5" fill="#67e8f9"/>
+    <text x="78" y="71" fill="#67e8f9" font-size="13" letter-spacing="3">BUILD · LEARN · ITERATE</text>
+    <text x="54" y="148" fill="#f1f5f9" font-size="53" font-weight="750">Risikesh Somnath T</text>
+    <text x="57" y="192" fill="#cbd5e1" font-size="22">Software Engineer · AI / ML · Full Stack</text>
+    <text x="57" y="245" fill="#94a3b8" font-size="17">From interface to infrastructure. Built with purpose.</text>
+    <text x="964" y="177" fill="#67e8f9" font-family="monospace" font-size="40">&lt;/&gt;</text>
+    <path class="cursor" d="M57 273h10" stroke="#a78bfa" stroke-width="3"/>
+  </g>
+</svg>
